@@ -1,8 +1,0 @@
-#!/bin/bash
-
-# to 
-
-
-read -p "Enter wait in pounds: " pounds
-kilograms=$(echo "$pounds*0.45" | bc)
-echo "$pounds pounds is equal to $kilograms kilograms."
